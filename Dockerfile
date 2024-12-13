@@ -3,8 +3,7 @@ FROM node:14
 
 # Set the working directory in the container
 WORKDIR /app
-ENV PORT 8080
-ENV HOST 0.0.0.0
+ENV PORT 5000
 
 # Copy package.json and package-lock.json to the container
 COPY package*.json ./
@@ -16,7 +15,7 @@ RUN npm install
 COPY . .
 
 # Expose port 8080
-EXPOSE 8080
+EXPOSE 5000
 
 # Start the application
 CMD [ "npm", "run", "start"]
