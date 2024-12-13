@@ -38,6 +38,11 @@ env:
   PROJECT_ID: 'fridgerecipe-442714' # TODO: update to your Google Cloud project ID
   REGION: 'asia-southeast2' # TODO: update to your region
   SERVICE: 'backend-service' # TODO: update to your service name
+  DB_HOST: 34.57.56.122
+  DB_USER: 'root'
+  DB_PASSWORD: 'Yr}OO7.rpQO7vPV#'
+  DB_NAME: 'FridgeRecipe'
+
 
 jobs:
   deploy:
